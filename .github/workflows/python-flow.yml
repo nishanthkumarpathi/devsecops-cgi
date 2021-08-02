@@ -16,4 +16,4 @@ jobs:
     needs: Build
     steps:
       - name: Run Python File
-        run: python hello.py
+        run: python ../workflows/hello.py
